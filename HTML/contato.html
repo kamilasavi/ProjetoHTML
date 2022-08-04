@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../CSS/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;800&display=swap" rel="stylesheet">
+
+</head>
+<body class="background">
+    <div class="container">
+
+    <header>
+        <div class="logo">
+            <img src="../IMG/woman.png">
+        </div>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="kamila-principal.html">HOME</a> </li>
+                <li><a href="projetos.html">PROJETOS</a> </li>
+                <li><a href="contato.html">CONTATO</a> </li>
+            </ul>    
+                   
+        </nav>
+    </header>
+    
+    <div class="formulario">
+    <h3>Entre em contato</h3>
+    
+    <form>        
+            <table class="input_100">
+                <tr>
+                    <td>Assunto</td>
+                    <td class="td_80"><select name="contato_assunto" class="input_100">
+                        <option value="informacoes">Informações</option>
+                        <option value="solicitacoes">Solicitações</option>
+                        <option value="duvidas">Dúvidas</option>
+                        <option value="outros">Outros</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nome completo:</td>
+                    <td class="td_80"><input type="text" name="nome_completo" class="input_100"></td>
+                </tr>
+                <tr>
+                    <td>E-mail:</td>
+                    <td class="td_80"><input type="text" name="email" class="input_100"></td>
+                </tr>
+                <tr>
+                    <td>Telefone:</td>
+                    <td class="td_80"><input type="text" name="telefone" class="input_100"></td>
+                </tr>
+             </table>
+             <br>
+        <div class="formulario_centralizado">
+            <input type="radio" name="pessoa" value="pessoa_fisica">Pessoa Física
+            <input type="radio" name="pessoa" value="pessoa_juridica">Pessoa Jurídica
+        </div>
+        
+        <label>Mensagem</label>
+        <textarea name="areatexto"></textarea>
+        
+        <br>
+        <div class="formulario_centralizado">
+            <input type="submit" name="enviar" value="Enviar">
+            <input type="reset" name="reset" value="Limpar">
+        </div>
+
+    </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <footer>
+        <div class="redes_sociais">
+            <ul>
+                <li><a href="https://www.instagram.com/kamilasavi" target="_blank"><img src="../IMG/instagram.png"></a></li>
+                <li><a href="https://br.linkedin.com/in/kamila-savi-mondo-172ab999" target="_blank"><img src="../IMG/linkedin.png"></a></li>
+            </ul>
+        </div>
+
+        <div class="telefone">
+            <img src="../IMG/whatsapp.png"> (47)99201-3962
+        </div>
+    </footer>
+</div>
+</body>
+</html>
